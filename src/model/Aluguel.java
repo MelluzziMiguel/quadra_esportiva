@@ -1,3 +1,8 @@
+package model;
+
+import model.Cliente;
+import model.Horario;
+
 import java.util.List;
 
 public class Aluguel {
@@ -28,5 +33,9 @@ public class Aluguel {
 
     public String getData() {
         return data;
+    }
+
+    public Cliente getCliente() {
+        return cliente;
     }
 }

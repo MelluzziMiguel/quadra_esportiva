@@ -1,3 +1,5 @@
+package model;
+
 public class Horario {
     private int id;
     private String hora;
